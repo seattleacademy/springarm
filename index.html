@@ -3,12 +3,23 @@
 
 <head>
     <title>saasbot</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <div>Hello World!</div>
+    <button id="moveMe">moveMe</button>
+    <div id="slider">Slider</div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+        <script>
+    $(function() {
+        $("#slider").slider();
+    });
+    </script>
 </body>
 
 </html>
